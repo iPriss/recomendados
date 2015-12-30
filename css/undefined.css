@@ -1,0 +1,36 @@
+body { font-family: "Open Sans", sans-serif; }
+.container { width: 940px !important; }
+.aligncenter { text-align: center; }
+
+.slide-background { position:absolute; width: 100%; height:100%; z-index:-100; overflow: hidden; background: #111; }
+.slide-background > ul { display: block; margin:0; padding:0; list-style: none; }
+.slide-background > ul > li { display: inline-block; }
+.slide-background > ul > li img { opacity: 0.2 }
+
+.header .logo-header { position: relative; float: left; display: block; margin: 110px 0 0; }
+.header .menu-header { position: relative; float: right; display: block; margin: 135px 0 0; }
+.header .menu-header > li { display: inline-block; padding: 0 0 0 26px; font-size: 15px; font-family: "Open Sans",sans-serif; }
+.header .menu-header > li > a { color: #FFF; text-decoration: none; text-transform: uppercase; }
+
+.header .menu-header > li > a.current,
+.header .menu-header > li > a:hover { color: #FF7F66; }
+.header .header-border { margin: 52px 0 0; height: 1px; border: medium none; background-color: #b7b7b5; color: #b7b7b5; }
+
+.header .slogan-boxes { margin: 75px 0 0; }
+.header .slogan-boxes h2 { text-align: center; text-transform: uppercase; color: #FFF; font: 200 50px "Open Sans", sans-serif; }
+
+.header .slogan-boxes .text-01 { text-align: center; font-family: "Open Sans",sans-serif; color: #fff; font-weight: 200; text-transform: uppercase; }
+
+.header .slogan-boxes .slogan { height: 175px; display: none; }
+
+.header .slogan-boxes .steps { height: 175px; }
+.header .slogan-boxes .steps li { display: inline-block; margin:0 15px; padding: 40px 50px; background:#111; background-color: rgba(0,0,0,0.5); }
+.header .slogan-boxes .steps li:first-child, .header .slogan-boxes .steps li:last-child { margin: 0; }
+.header .slogan-boxes .steps li span { display: block; padding: 15px 0; color: #FFF; text-transform: uppercase; }
+.fullwidth { width: 100%; }
+
+.btn-01 { font-size: 20px; font-weight: 400; margin: 30px 0 30px; padding: 20px; }
+
+.def-btn { display: inline-block; border: 1px solid #ff7f66; border-radius: 12px; color: #FFF; text-transform: uppercase; }
+.btn-begin { border-color:#ff7f66; background:#ff7f66; }
+.btn-begin:hover { background: #FFF; border-color: #FFF; color: #FF7F66; text-decoration: none; }
